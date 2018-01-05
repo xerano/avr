@@ -62,7 +62,7 @@ int main(int argc, char **argv) {
 	char direction = 0;
 
 	while (1) {
-		// Pegel am Button auf LOW?
+		// button pressed? change direction
 		if(!(PINB & (1<<BUTTON))){
 			blink(2);
 			direction = !direction;
