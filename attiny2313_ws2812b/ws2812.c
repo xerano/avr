@@ -1,10 +1,3 @@
-/*
- * ws2812.c
- *
- *  Created on: 11.05.2021
- *      Author: matthias
- */
-
 #include <avr/io.h>
 #include <util/delay.h>
 #include "ws2812.h"
