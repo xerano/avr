@@ -6,8 +6,8 @@
 #endif
 
 #define RESET 60
-#define PIN_LOW  { PORTB &= ~(1<<DDB0); } // aproximately ~ 250ns
-#define PIN_HIGH { PORTB |= (1<<DDB0); }  // aproximately ~ 250ns
+#define PIN_LOW  { PORTB &= ~(1<<DDB0); } // approximately ~ 250ns
+#define PIN_HIGH { PORTB |= (1<<DDB0); }  // approximately ~ 250ns
 
 typedef struct LED {
 	uint8_t r;
